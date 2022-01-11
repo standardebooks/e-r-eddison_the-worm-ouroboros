@@ -6,6 +6,27 @@ footer{
 	text-align: right;
 }
 
+[epub|type~="signature"]{
+	font-variant: smal;
+}
+
+[epub|type~="dedication"] p:first-child,
+time{
+	font-style: italic;
+}
+
+[epub|type~="dedication"] p:first-child + p{
+	margin-top: 1em;
+}
+
+[epub|type~="dedication"] p:first-child abbr{
+	font-style: normal;
+}
+
+section[epub|type~="dedication"]{
+	margin-top: 20vh;
+}
+
 [epub|type~="bridgehead"]{
 	display: inline-block;
 	font-style: italic;
