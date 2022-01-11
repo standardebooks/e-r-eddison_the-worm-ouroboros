@@ -49,7 +49,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/67090</dc:source>
 		<dc:source>https://archive.org/details/wormouroborosrom00eddi</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<meta property="se:production-notes">Some archaic spellings have been left as a matter of prose style.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Worm_Ouroboros</meta>
@@ -72,11 +72,11 @@
 		<meta property="file-as" refines="#transcriber-2">Taylor, Charlene</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Mark Demarest</dc:contributor>
-		<meta property="file-as" refines="#transcriber-4">Demarest, Mark</meta>
+		<meta property="file-as" refines="#transcriber-3">Demarest, Mark</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-4">Robert Tonsing</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Tonsing, Robert</meta>
 		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-5">Robert Tonsing</dc:contributor>
-		<meta property="file-as" refines="#transcriber-5">Tonsing, Robert</meta>
-		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-5">The Online Distributed Proofreading Team</dc:contributor>
 		<meta property="file-as" refines="#transcriber-5">Online Distributed Proofreading Team, The</meta>
 		<meta property="se:url.homepage" refines="#transcriber-5">https://pgdp.net</meta>
