@@ -6,6 +6,19 @@ footer{
 	text-align: right;
 }
 
+table th{
+	text-align: center;
+}
+
+table tbody tr td:first-child{
+	text-align: right;
+	vertical-align: top;
+}
+
+abbr[epub|type~="se:era"]{
+	font-variant: all-small-caps;
+}
+
 [epub|type~="signature"]{
 	font-variant: smal;
 }
