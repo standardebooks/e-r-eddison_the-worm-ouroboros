@@ -10,16 +10,23 @@ table th{
 	text-align: center;
 }
 
+table td{
+	vertical-align: top;
+}
+
 table tbody tr td:first-child{
 	text-align: right;
-	vertical-align: top;
+}
+
+table td{
+	padding: .25em;
 }
 
 abbr[epub|type~="se:era"]{
 	font-variant: all-small-caps;
 }
 
-[epub|type~="signature"]{
+[epub|type~="z3998:signature"]{
 	font-variant: smal;
 }
 
@@ -48,32 +55,25 @@ section[epub|type~="dedication"]{
 	text-indent: 0;
 }
 
-[epub|type~="bridgehead"] i{
-	font-style: normal;
-}
-
-[epub|type~="z3998:poem"] [epub|type~="bridgehead"],
-[epub|type~="z3998:verse"] [epub|type~="bridgehead"],
-[epub|type~="z3998:song"] [epub|type~="bridgehead"],
-[epub|type~="z3998:hymn"] [epub|type~="bridgehead"]{
-	text-align: justify;
-}
-
+[epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
+[epub|type~="z3998:song"] p > span,
 [epub|type~="z3998:verse"] p > span{
 	display: block;
 	padding-left: 1em;
 	text-indent: -1em;
 }
 
+[epub|type~="z3998:song"] p > span + br,
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
 
+[epub|type~="z3998:song"] p + p,
 [epub|type~="z3998:verse"] p + p{
 	margin-top: 1em;
 }
@@ -88,7 +88,7 @@ p span.i2{
 	text-indent: -1em;
 }
 
-p span.i2{
+p span.i3{
 	padding-left: 4em;
 	text-indent: -1em;
 }
