@@ -64,7 +64,7 @@
 		<dc:contributor id="transcriber-2">Charlene Taylor</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Taylor, Charlene</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-3"> Mark Demarest</dc:contributor>
+		<dc:contributor id="transcriber-3">Mark Demarest</dc:contributor>
 		<meta property="file-as" refines="#transcriber-4">Demarest, Mark</meta>
 		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-5">Robert Tonsing</dc:contributor>
