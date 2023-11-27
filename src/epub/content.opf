@@ -54,7 +54,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/67090</dc:source>
 		<dc:source>https://archive.org/details/wormouroborosrom00eddi</dc:source>
 		<meta property="se:production-notes">Some archaic spellings have been left as a matter of prose style.</meta>
-		<meta property="se:word-count">170739</meta>
+		<meta property="se:word-count">170737</meta>
 		<meta property="se:reading-ease.flesch">74.53</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Worm_Ouroboros</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/e-r-eddison_the-worm-ouroboros</meta>
