@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/e-r-eddison/the-worm-ouroboros</dc:identifier>
 		<dc:date>2022-02-08T02:27:25Z</dc:date>
 		<meta property="dcterms:modified">2022-02-08T02:27:25Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -42,7 +43,7 @@
 		<meta property="term" refines="#subject-1">sh85047114</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2008104271</meta>
-		<meta property="se:subject">Fantasy</meta>
+		<meta property="schema:genre">Fantasy</meta>
 		<dc:description id="description">The King Gorice of Witchland and the lords of Demonland wage war in the high-fantasy lands of Mercury.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Worm Ouroboros&lt;/i&gt; is considered to be one of the foundational texts of the high fantasy genre, influencing later authors like J. R. R. Tolkien, &lt;a href="https://standardebooks.org/ebooks/c-s-lewis"&gt;C. S. Lewis&lt;/a&gt;, Ursula K. Leguin, and &lt;a href="https://standardebooks.org/ebooks/james-branch-cabell"&gt;James Branch Cabell&lt;/a&gt;. It is most frequently compared to &lt;i&gt;The Lord of the Rings&lt;/i&gt; in its epic scope set against a medieval, magic-laced backdrop—a world called “Middle Earth” by &lt;a href="https://standardebooks.org/ebooks/e-r-eddison"&gt;Eddison&lt;/a&gt;, thirty-two years before Tolkien’s—and in its almost mythical portrayal of larger-than-life heroes and villains.&lt;/p&gt;
@@ -54,22 +55,23 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/67090</dc:source>
 		<dc:source>https://archive.org/details/wormouroborosrom00eddi</dc:source>
-		<meta property="se:production-notes">Some archaic spellings have been left as a matter of prose style.</meta>
-		<meta property="se:word-count">169498</meta>
-		<meta property="se:reading-ease.flesch">74.63</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Worm_Ouroboros</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/e-r-eddison_the-worm-ouroboros</meta>
+		<meta property="schema:wordCount">169498</meta>
+		<meta property="schema:educationalLevel">74.63</meta>
+		<link href="https://en.wikipedia.org/wiki/The_Worm_Ouroboros" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/e-r-eddison_the-worm-ouroboros" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">E. R. Eddison</dc:creator>
 		<meta property="file-as" refines="#author">Eddison, E. R.</meta>
-		<meta property="se:name.person.full-name" refines="#author">Eric Rücker Eddison</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/E._R._Eddison</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n92105878</meta>
+		<meta property="schema:alternateName" refines="#author">Eric Rücker Eddison</meta>
+		<link href="https://en.wikipedia.org/wiki/E._R._Eddison" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n92105878.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<dc:contributor id="artist">Giovanni Battista Tiepolo</dc:contributor>
 		<meta property="file-as" refines="#artist">Tiepolo, Giovanni Battista</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Giovanni_Battista_Tiepolo</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n80045041</meta>
+		<link href="https://en.wikipedia.org/wiki/Giovanni_Battista_Tiepolo" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n80045041.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Mary Glenn Krause</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Krause, Mary Glenn</meta>
@@ -85,11 +87,11 @@
 		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-5">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-5">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-5">https://www.pgdp.net/</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-5" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
