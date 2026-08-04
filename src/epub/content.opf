@@ -44,7 +44,7 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2008104271</meta>
 		<meta property="schema:genre">Fantasy</meta>
-		<dc:abstract>The King Gorice of Witchland and the lords of Demonland wage war in the high-fantasy lands of Mercury.</dc:abstract>
+		<meta property="schema:abstract">The King Gorice of Witchland and the lords of Demonland wage war in the high-fantasy lands of Mercury.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;i&gt;The Worm Ouroboros&lt;/i&gt; is considered to be one of the foundational texts of the high fantasy genre, influencing later authors like J. R. R. Tolkien, &lt;a href="https://standardebooks.org/ebooks/c-s-lewis"&gt;C. S. Lewis&lt;/a&gt;, Ursula K. Leguin, and &lt;a href="https://standardebooks.org/ebooks/james-branch-cabell"&gt;James Branch Cabell&lt;/a&gt;. It is most frequently compared to &lt;i&gt;The Lord of the Rings&lt;/i&gt; in its epic scope set against a medieval, magic-laced backdrop—a world called “Middle Earth” by &lt;a href="https://standardebooks.org/ebooks/e-r-eddison"&gt;Eddison&lt;/a&gt;, thirty-two years before Tolkien’s—and in its almost mythical portrayal of larger-than-life heroes and villains.&lt;/p&gt;
 			&lt;p&gt;The plot begins simply enough: The Lords of Demonland, a group of heroic warriors enjoying a strained peace, are called upon by an emissary of the warlock king of Witchland, Gorice XI. The emissary demands that Demonland submit to the King of Witchland—but the proud Demons refuse, setting off an epic war that spans their entire world. The heroic struggles of the Demons and their allies against the Witches reflect the circular nature of human history: the snake eating its own tail of the title.&lt;/p&gt;
